@@ -30,7 +30,7 @@ a {
 .btn {
     display: inline-block;
     min-width: 98px;
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 18px 16px;
     background: var(--primary-color);
     font-weight: 500;
@@ -104,10 +104,11 @@ a {
     margin-left: 18px;
     border: 1px solid transparent;
     transition: 0.3s;
+    border-radius: 8px;
 }
 
 .navbar .action-btn:hover {
-    background: #e6f0ff;
+    background: transparent;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
@@ -151,7 +152,6 @@ a {
     padding-top: 18.5px;
     padding-bottom: 18.5px;
     transition: 0.5s;
-    border-radius: 12px;
 }
 
 .hero .hero-cta:hover {
@@ -295,5 +295,4 @@ a {
 
 .guide-cta .btn {
     min-width: 170px;
-    border-radius: 12px;
 }
