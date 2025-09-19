@@ -107,7 +107,7 @@ a {
 }
 
 .navbar .action-btn:hover {
-    background: #ffffff;
+    background: #e6f0ff;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
