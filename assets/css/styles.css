@@ -43,6 +43,7 @@ a {
 .header {
     background: #e6f0ff;
     height: 100vh;
+    position: relative;
 }
 
 .navbar {
@@ -62,6 +63,7 @@ a {
     font-size: 1.4rem;
     color: #4f5361;
     padding: 8px 14px;
+    transition: 0.3s;
 }
 
 .navbar ul a::after {
@@ -75,16 +77,15 @@ a {
     border-radius: 3px;
     background: var(--primary-color);
     opacity: 0;
+    transition: 0.3s;
 }
 
 .navbar ul a:hover::after {
     opacity: 1;
-    transition: 0.3s;
 }
 
 .navbar ul a:hover {
     color: var(--primary-color);
-    transition: 0.3s;
 }
 
 .navbar .actions {
@@ -101,13 +102,13 @@ a {
     padding: 12px 16px;
     margin-left: 18px;
     border: 1px solid transparent;
+    transition: 0.3s;
 }
 
 .navbar .action-btn:hover {
     background: #ffffff;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    transition: 0.3s;
 }
 
 .hero {
@@ -153,4 +154,10 @@ a {
 
 .hero .hero-cta:hover {
     opacity: 0.8;
+}
+
+.hero .hero-img {
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1110px) / 2 - 100px);
 }
