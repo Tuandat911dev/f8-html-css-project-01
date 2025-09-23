@@ -8,3 +8,4 @@
 
 ## Tài nguyên
 - [Figma](https://www.figma.com/design/Zs7vjnMWc3jj09J94gr57L/01.-Real-Estate-Landing-Page--Easy---1-?node-id=25-2&p=f&t=Wr9w5fSEizMjXnOX-0)
+- [Kết quả](https://tuandat911dev.github.io/f8-html-css-project-01/)
