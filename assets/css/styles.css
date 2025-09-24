@@ -662,7 +662,7 @@ a {
 .footer .social {
     margin-top: 40px;
     display: flex;
-    gap: 17px;
+    gap: 16px;
 }
 
 .footer .social .social-link {
@@ -672,10 +672,6 @@ a {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    transition: 0.5s;
-}
-
-.footer .social .social-link:hover {
     background: #f9f9f9;
 }
 
